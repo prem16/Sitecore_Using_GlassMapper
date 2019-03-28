@@ -1,0 +1,11 @@
+//We add model for our sitecore items or fields.
+
+namespace Sitecore_Using_GlassMapper
+{
+    public interface ITextBlock 
+    {
+        string Heading { get; set; }
+        string SubHeading { get; set; }
+        string Content { get; set; }
+    }
+}
