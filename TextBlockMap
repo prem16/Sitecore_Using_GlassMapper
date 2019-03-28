@@ -1,0 +1,19 @@
+// We map our model using glassmapper
+
+using Glass.Mapper.Sc.Maps;
+using Sitecore_Using_GlassMapper.Models;
+namespace Sitecore_Using_GlassMapper
+{
+    public class TextBlockMap : SitecoreGlassMap<ITextBlock>
+    {
+
+        public override void Configure()
+        {
+            Map(x =>
+            {
+                x.AutoMap();
+            });
+        }
+    }
+}
+
