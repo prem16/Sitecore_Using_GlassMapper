@@ -1,0 +1,13 @@
+//Create the tempalte in sitecore/content/template
+1.We create the template TextBlock.
+2.Name the secton name like TextBlockData.
+3.Save it and publish!(Prefer smart publish)
+ 
+//Create an sitecore/content/home 
+1.Create an item using texblock template in Sitecore contentery.
+2.Name the item as TextBlock.
+3.Save it and publish.(Prefer smart publish)
+
+
+
+ 
