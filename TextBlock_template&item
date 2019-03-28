@@ -1,12 +1,22 @@
 //Create the tempalte in sitecore/content/template
 1.We create the template TextBlock.
 2.Name the secton name like TextBlockData.
-3.Save it and publish!(Prefer smart publish)
+3.Add Fields:
+ a)Heading       Singletext type
+ b)SubHeading    Singletext type
+ c)Content       Richtext   type
+ 
+4.Save it and publish!(Prefer smart publish)
  
 //Create an sitecore/content/home 
 1.Create an item using texblock template in Sitecore contentery.
 2.Name the item as TextBlock.
-3.Save it and publish.(Prefer smart publish)
+3.Item fields willbe created and Fill text like below
+
+a)Heading  --This is the Heading!
+b)SubHeading--This is the Sub Heading!
+c)Content--  Here is the Content!  
+4.Save it and publish.(Prefer smart publish)
 
 
 
