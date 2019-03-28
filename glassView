@@ -1,0 +1,16 @@
+//lets add a view in the web project,we  will add a view rendering Name As glassView.
+
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Sitecore_Using_GlassMapper.ITextBlock>
+@using Sitecore.Mvc
+
+@if (Model != null)
+{
+    <h3>@Model.Heading</h3>
+    <h4>@Model.SubHeading</h4>
+    <div class="content">@Html.Raw(Model.Content)</div>
+}
+
+
+
+// At last build and publish the solution and See the Result.
